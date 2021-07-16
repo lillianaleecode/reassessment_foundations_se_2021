@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Edit Posts</title>
+{% endblock %}
+
+<!-- this section copy paste from  the form of posts.html -->
+
+{% block body %}
+<h1>Editing Posts</h1>
+
+<hr>
+
+<h2>Edit the Post:</h2>
+<!-- value="{{post.title}}"> will autocomplete in the form-->
+<!-- note that the actio will affect over the specific id post. -->
+<form action='/posts/edit/{{post.id}}' method='POST'>
+    Title: <input type='text' name='title' id='title' value="{{post.title}}"> 
+    <br>
+    Author: <input type='text' name='author' id='author' value="{{post.author}}">
+    <br>
+    Post: <input type='text' name='content' id='content' value="{{post.content}}">
+    <br>
+    <input type='submit' value='Save'>
+</form>
+
+{% endblock %}
