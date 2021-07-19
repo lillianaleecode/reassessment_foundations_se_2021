@@ -58,8 +58,3 @@ A new file called "requirements.txt" will be created in my folder.
 #6 i renamed the link by typing in the terminal 'heroku rename reassessmentlillianalee' and I got this link https://reassessmentlillianalee.herokuapp.com/ 
 #7 now I just push the code to heroku by writing 'git push heroku master' in the terminal.
 now my project is live in 'https://reassessmentlillianalee.herokuapp.com/' :D yey!
-
-notes to myself:
-PLAY WITH CSS AND BOOTSTRAP.
-Add elements that makes it look like a website. (the nav and footer for example)
-dont forget to send everything to assess the project!!!!
