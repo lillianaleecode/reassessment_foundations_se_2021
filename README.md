@@ -44,4 +44,22 @@ and after it, a Procfile file will be created in my folder.
 #1.4 inside this file, I just need to write "web: gunicorn" to let heroku know I'm using gunicorn, and "app:app" to let heroku know that the app we are using is from my file called app.py
 #2 Heroku needs to know all the requirements, so I retrieve it with 'pip3 freeze > requirements.txt'.
 A new file called "requirements.txt" will be created in my folder.
+#3 Heroku ues Github so I need to push my code to Github.
+3.1 'git init'
+3.2 'git add .'
+3.3 'git status' (I see my stuff)
+3.4 'git commit -m 'Reassessment Project'' (creates stuff)
+3.5 'git remote add origin 'https://github.com/lillianaleecode/reassessment_foundations_se_2021.git''
+3.6 'git push -u origin master'
+3.7 I sign in with my github credentials and the terminal will display a link to my github to view it
 
+#4 after having my code in Github, now in my terminal I'll type 'heroku login'. it will take me to the website to sign in.
+#5 now type in the terminal 'heroku create'. the terminal gave me this following link: 'https://pacific-fortress-91430.herokuapp.com/'
+#6 i renamed the link by typing in the terminal 'heroku rename reassessmentlillianalee' and I got this link https://reassessmentlillianalee.herokuapp.com/ 
+#7 now I just push the code to heroku by writing 'git push heroku master' in the terminal.
+now my project is live in 'https://reassessmentlillianalee.herokuapp.com/' :D yey!
+
+notes to myself:
+PLAY WITH CSS AND BOOTSTRAP.
+Add elements that makes it look like a website. (the nav and footer for example)
+dont forget to send everything to assess the project!!!!
